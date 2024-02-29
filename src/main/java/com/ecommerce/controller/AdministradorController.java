@@ -10,7 +10,7 @@ public class AdministradorController {
 
     @GetMapping("")
     public String home(){
-
+        //nombre de la carpeta contenedora/archivo.html
         return "administrador/home";
 
     }
