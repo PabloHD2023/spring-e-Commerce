@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Spring eCommerce</title>
-  <!-- Bootstrap core CSS  + Thymeleaf-->
-  <link th:href="@{vendor/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
-  <!-- Custom styles for this template + Thymeleaf -->
-  <link th:href="@{css/heroic-features.css}" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Spring eCommerce</title>
+    <!-- Bootstrap core CSS  + Thymeleaf-->
+    <link th:href="@{vendor/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Custom styles for this template + Thymeleaf -->
+    <link th:href="@{css/heroic-features.css}" rel="stylesheet">
+  </head>
   <body>
-  <div th:insert="~{administrador/template_admin.html::header}"></div>
+      <div th:insert="~{administrador/template_admin.html::header}"></div>
       <!-- Page Content -->
       <div class="container">
         <!-- Jumbotron Header -->
@@ -71,10 +71,9 @@
       </div>
       <!-- /.container -->
       <!-- Footer -->
-    <div th:insert="~{administrador/template_admin.html::footer}"></div>
-    </div>
+      <div th:insert="~{administrador/template_admin.html::footer}"></div>
       <!-- Bootstrap core JavaScript + Thymeleaf -->
       <script th:src="@{vendor/jquery/jquery.min.js}"></script>
       <script th:src="@{vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
-    </body>
-  </html>
+  </body>
+</html>
